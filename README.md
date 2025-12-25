@@ -1,2 +1,5 @@
-# todojavascript
-Created with CodeSandbox
+# 起動コマンド
+ターミナル
+"""
+node 〇〇.js
+"""
