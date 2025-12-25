@@ -15,3 +15,8 @@ rm -rf node_modules package-lock.json
 npm install
 npm start
 ```
+
+ESlint実行
+```
+npx eslint 〇〇.js
+```
