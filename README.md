@@ -6,7 +6,7 @@ node 〇〇.js
 
 ブラウザ上
 ```
-npm.start
+npm start
 ```
 
 何かあったら以下を試す
