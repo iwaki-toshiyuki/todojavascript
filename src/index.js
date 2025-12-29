@@ -5,6 +5,7 @@ const onClickAdd = () => {
   const inputText = document.getElementById("add-text").value;
   document.getElementById("add-text").value = "";
 
+  //未完了リストに追加
   createIncompleteList(inputText);
 }
 
@@ -83,5 +84,7 @@ const createIncompleteList = (text) => {
 };
 
 
+//追加ボタンにイベント登録
+//addEventListenerメソッド： 第一引数にイベントの種類、第二引数にイベント発生時に実行する関数を指定する
 document
   .getElementById("add-button").addEventListener("click", () => onClickAdd());
